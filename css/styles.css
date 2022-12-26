@@ -1,0 +1,59 @@
+/*
+Colores
+    Naranja #f58635
+    Azul #0968aa
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content:space-between ;
+    
+}
+
+.main_nav{
+    list-style: none;
+    display: block;
+}
+
+.main_nav_item{
+    display: inline-block;
+    padding: 10px;
+}
+
+.main_nav_item a{
+    text-decoration: none;
+    color: black;
+}
+
+.main_nav_item:hover{
+    background-color: #f58635;
+    color: white;
+}
+
+.background_banner{
+    position: relative;
+    justify-content: space-between;
+    background-position: 180% center !important;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(#419ada, #0968aa);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#419ada), to(#0968aa));
+    background-image: -moz-linear-gradient(top, #419ada, #0968aa);
+}
+
+.banner_Eslogan{
+    width: 12em;
+    color: width;
+}
+
+.background_banner_img{
+    height: 100%;
+}
